@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 33%), linear-gradient(90deg, #dd0000 66%, #0000dd 100%);
+  }
+  
+  .Taegeukgi {
+    position: relative;
+    margin: 50px auto;
+    width: 600px;
+    height: 400px;
+    transform: translate(50%,50%);
+    justify-content: center;
+  }
+  .Taegeukgi:hover
+  {
+    transform: rotateX(180deg);
+    transition: all ease 1s;
+  }
+  
+  .Taegeukgi .semicircle .red { 
+    position: absolute; 
+    top: 160px;
+    width: 400px; 
+    height: 200px; 
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    background: #ff0000;
+    transform:rotate(33deg);
+    
+  }
+  
+  .Taegeukgi .semicircle .red:hover {
+    transform: rotate(150deg);
+    transition: all ease 1s;
+  }
+  
+  .Taegeukgi .semicircle .blue:hover
+  {
+    transform: rotate(-150deg);
+    transition: all ease 1s;
+  }
+  
+  .Taegeukgi .semicircle .blue { 
+    position: absolute; 
+    left: -106px;
+    top: 324px;
+    width: 400px; 
+    height: 200px; 
+    
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    background: #0000ff;
+    transform:rotate(33deg);
+  }
+  
+  .Taegeukgi .circle .blue { 
+    position: absolute; 
+    left: 138px;
+    top: 285px;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 100%;
+    background: #0000ff;
+    transform:rotate(33deg);
+  }
+  .Taegeukgi .circle .blue:hover
+  {
+    transform: translateX(-150deg);
+    transition: all ease 1s;
+  }
+  .Taegeukgi .circle .red:hover
+  {
+    transform: translateX(-150deg);
+    transition: all ease 1s;
+  }
+  
+  .Taegeukgi .circle .red { 
+    position: absolute; 
+    left: -42px;
+    top: 197px;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 100%;
+    background: #ff0000;
+    transform:rotate(33deg);
+  }
